@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,300;1,400&display=swap" >
+  
+  <title>Frontend Mentor | Order summary card</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    *{
+      box-sizing: border-box;
+    }
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+ body {font-family:'Red Hat Display', sans-serif;
+ background: url(images/pattern-background-desktop.svg), #e1e9ff;
+       background-repeat: no-repeat;
+       background-size: 100% 300px;
+}
+
+.music img{
+  width:300px;
+    height: 170px;
+    border-top-left-radius:10px;
+    border-top-right-radius:10px;
+}
+.container{
+      width:300px;
+      margin:auto;
+      background-color: #ffff;
+      border-radius: 10px;
+      padding-bottom: 20px;
+      margin-top: 70px;
+      margin-bottom: 12px;
+    }
+
+    .content h2{
+      font-size: 18px;
+      font-weight: 700;
+      text-align: center;
+    }
+    .content p{
+      color:#a0a3b0;
+      font-size: 12px;
+      font-family: 400;
+      text-align: center;
+      margin: auto 16px;
+    }
+    .plan{
+      display: flex;
+      justify-content:space-around;
+      align-items:center;
+      margin: 10px auto;
+      width:260px;
+      background-color: #f7fafd;
+    }
+    .plan a{
+padding:auto 10px;
+    }
+    .plan h2{
+      font-size: 14px;
+      text-align: justify;
+    }
+    span{
+      color:#a0a3b0;
+      font-size: 12px;;
+    }
+    .cancel span{
+      color:#d4d9e6;
+      font-size: 18px;
+      font-size: bold;
+      margin-top: 10px;
+      margin-bottom: 15px;
+    }
+    
+    button{
+      padding:10px;
+      text-align: center;
+      border-radius: 12px;
+      border: none;
+      background-color: #382bdf;
+      color:#fff;
+      width:80%;
+      margin:10px 20px;
+
+    }
+    .cancel{
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="music">
+      <img src="/images/illustration-hero.svg" alt="hero">
+    </div>
+    <div class="content">
+      <h2>Order Summary</h2>
+      <p>You can now listen to millions of songs, audiobooks, and podcasts on any 
+        device anywhere you like!</p>
+        <div class="plan">
+          <div class="box"></div>
+          <img src="/images/icon-music.svg" alt="music">
+          <div class="box"></div>
+          <h2>Annual Plan<br><span>$59.99/year</span></h2>
+          <div class="box"></div>
+          <a href="#">Change</a>
+        </div>
+        
+        <button>Proceed to Payment</button>
+          <div class="cancel">
+            <span>Cancel Order</span>
+          </div>
+        </div>
+    </div>
+  
+  
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Abdul Raouf</a>. 
+    Coded by <a. href="#">Hamid</a.>
+  </div>
+</body>
+</html>
